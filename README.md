@@ -1,6 +1,6 @@
 # RTL-to-GDSII-Implementation-of-a-Single-Cycle-RISC-V-Core
 Design and RTL-to-GDSII implementation of a synthesizable single-cycle RISC-V (RV32I) processor using Verilog and Cadence digital implementation tools, covering RTL design, functional verification, synthesis, physical design, timing analysis, and GDSII generation.
-# RTL to GDSII Implementation of a Single-Cycle RISC-V Core
+
 
 This project focuses on the design, verification, synthesis, and physical
 implementation of a single-cycle RISC-V processor based on the RV32I
@@ -16,25 +16,24 @@ design and finally GDSII generation.
 ## Project Flow
 
 RISC-V ISA
-   ↓
 Microarchitecture
-   ↓
+  ->
 Verilog RTL
-   ↓
+   ->
 Functional Verification
-   ↓
+   ->
 Synthesis
-   ↓
+   ->
 Floorplanning
-   ↓
+   ->
 Placement
-   ↓
+   ->
 Clock Tree Synthesis
-   ↓
+   ->
 Routing
-   ↓
+   ->
 Timing / Physical Verification
-   ↓
+   ->
 GDSII
 
 ## Key Objectives
